@@ -1,0 +1,272 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2.5%;
+}
+
+.Logo img {
+    height: 150px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+    font-family: 'Inter';
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.phone {
+    color: #664343;
+    font-size: large;
+}
+
+.text-tabs {
+    text-align: center;
+    font-family: 'Work Sans';
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.tab-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: #FAFAFA;
+    color: #000000;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 80px;
+    font-family: 'Work Sans';
+}
+
+.card {
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.car-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.car-type {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.price {
+    color: #664343;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.per-day {
+    color: #000000;
+    font-size: 14px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.features div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.view-details {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #664343;
+    color: #fff;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.view-details:hover {
+    background-color: #5a3329;
+}
+
+.view-details:active {
+    transform: translateY(3px);
+}
+
+.Logos-group {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    height: 170px;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-items: center;
+}
+
+.logos img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Work Sans';
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.logo-section .logo {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: -35%;
+}
+
+.logo-section p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-left: -240%;
+}
+
+.contact-section .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-section .contact-item img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.links-section h4,
+.vehicles-section h4,
+.app-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.links-section ul,
+.vehicles-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li,
+.vehicles-section li {
+    margin: 10px 0;
+}
+
+.links-section a,
+.vehicles-section a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.app-icons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.app-icons img {
+    width: 140px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}

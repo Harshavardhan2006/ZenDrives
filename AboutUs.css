@@ -1,0 +1,416 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2.5%;
+}
+
+.Logo img {
+    height: 150px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+    font-family: 'Inter';
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.phone {
+    color: #664343;
+    font-size: large;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Work Sans';
+    margin-top: 50px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text h5 {
+    font-weight: lighter;
+    display: inline;
+}
+
+.text a {
+    font-weight: bolder;
+}
+
+.content-container {
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Work Sans';
+}
+
+.heading-section {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+
+.heading-section h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.features-section {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+    margin-right: 100px;
+}
+
+.feature-item h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.feature-item p {
+    font-size: 0.95em;
+    color: #000000;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.banner3 {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.banner3 img {
+    border-radius: 20px;
+    height: auto;
+    width: 1300px;
+}
+
+.Highlights {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.High-group h1 {
+    color: #664343;
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.High-group a {
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.Banner5 {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-family: 'Work Sans';
+}
+
+.Banner5 img {
+    border-radius: 20px;
+    height: auto;
+    width: 1300px;
+}
+
+.Banner5 h5 {
+    position: absolute;
+    left: 44.6%;
+    top: 35%;
+    font-size: 15px;
+}
+
+.Banner5 h1 {
+    position: absolute;
+    left: 44.6%;
+    top: 39%;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Inter';
+}
+
+.Banner5 p {
+    position: absolute;
+    left: 44.6%;
+    top: 54%;
+    font-weight: lighter;
+    max-width: 550px;
+    text-align: left;
+}
+
+.reviews-section {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Work Sans';
+}
+
+.reviews-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.reviews-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    width: 375px;
+    height: 380px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.quote-icon {
+    font-size: 90px;
+    color: #664343;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.review-card p {
+    font-size: 0.95em;
+    color: #000000;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.review-card strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.review-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #664343;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin-top: auto;
+    height: 60px;
+}
+
+.faq-section {
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Work Sans';
+    display: inline;
+}
+
+.faq-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    padding: 0 15px 15px;
+    font-size: 16px;
+    color: #000000;
+    display: none;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-question::after {
+    content: "▲";
+}
+
+.faq-question::after {
+    content: "▼";
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: #000000;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Work Sans';
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.logo-section .logo {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: -35%;
+}
+
+.logo-section p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-left: -240%;
+}
+
+.contact-section .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-section .contact-item img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.links-section h4,
+.vehicles-section h4,
+.app-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.links-section ul,
+.vehicles-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li,
+.vehicles-section li {
+    margin: 10px 0;
+}
+
+.links-section a,
+.vehicles-section a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.app-icons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.app-icons img {
+    width: 140px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}

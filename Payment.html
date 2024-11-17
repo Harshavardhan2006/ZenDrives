@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Drives | Payment</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Favicon.jpeg">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="Payment.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+        <div class="logo">
+            <div><img src="Assets/Logo.png" alt="Zen Drives Logo"></div>
+            <div><h2>Debit/Credit Card Details</h2></div>
+        </div>
+        </header>
+        <form id="paymentForm">
+            <div class="payment-methods">
+                <div class="methods">
+                    <h3>Payment Methods</h3>
+                    <img src="Assets/visa.png" alt="Visa">
+                    <img src="Assets/rupay.png" alt="RuPay">
+                    <img src="Assets/mastercard.png" alt="MasterCard">
+                    <img src="Assets/paypal.png" alt="PayPal">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name">Name on card</label>
+                <input type="text" id="name" placeholder="Eg. Harshavardhan" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card number</label>
+                <input type="text" id="card-number" placeholder="xxxx xxxx xxxx xxxx" required>
+            </div>
+            <label for="month">Expiry</label>
+            <div class="form-group expiry">
+                <div>
+                <select id="month" required>
+                    <option value="">Month</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                </div>
+                <div>
+                <select id="year" required>
+                    <option value="">Year</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cvv" >CVV</label>
+                <input type="password" id="cvv" placeholder="Code" required>
+            </div>
+            <button type="button" class="btn" id="continueBtn">Continue</button>
+        </form>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+        <p>Thank you for your purchase!</p>
+        <a href="index.html"><button>Home</button></a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('continueBtn').addEventListener('click', function () {
+        const popup = document.getElementById('popup');
+        popup.style.display = 'flex'; 
+        });
+
+        window.addEventListener('load', function () {
+        const popup = document.getElementById('popup');
+        popup.style.display = 'none'; 
+        });
+    </script>
+  
+</body>
+</html>

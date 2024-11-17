@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2.5%;
+}
+
+.Logo img {
+    height: 150px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+    font-family: 'Inter';
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.phone {
+    color: #664343;
+    font-size: large;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Work Sans';
+    margin-top: 50px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text h5 {
+    font-weight: lighter;
+    display: inline;
+}
+
+.text a {
+    font-weight: bolder;
+}
+
+.Banner4 {
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.Banner4 img {
+    height: auto;
+    width: 1200px;
+}
+
+.contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.blog-text {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.Blogs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+}
+
+.Blog-images img {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Blog-images p {
+    font-size: 10px;
+}
+
+.Logos-group {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFAFA;
+    border-radius: 40px;
+    height: 170px;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-items: center;
+}
+
+.logos img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Work Sans';
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.logo-section .logo {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: -35%;
+}
+
+.logo-section p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000000;
+    text-align: left;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-left: -240%;
+}
+
+.contact-section .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.contact-section .contact-item img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.links-section h4,
+.vehicles-section h4,
+.app-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.links-section ul,
+.vehicles-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li,
+.vehicles-section li {
+    margin: 10px 0;
+}
+
+.links-section a,
+.vehicles-section a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.app-icons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.app-icons img {
+    width: 140px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}
